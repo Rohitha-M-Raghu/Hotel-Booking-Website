@@ -90,7 +90,8 @@ a{
 }
 
 .website-data {
-  background-color: lightpink;
+  /* background-color: lightpink; */
+  background: transparent;
   height: 100%;
   flex: 1;
   display: flex;
@@ -255,23 +256,24 @@ span {
 .website-description {
   height: 500px;
   width: 500px;
-  background-color: lightblue;
+  /* background-color: lightblue; */
+  background: transparent;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
 }
 
 .website-title {
   font-size: 75px;
-  margin-top: 100px;
-  color: white;
+  font-weight: 600;
+  margin-top: 150px;
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .website-details {
   width: 450px;
-  margin-top: -36px;
-  color: white;
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .more-info-button {
@@ -279,8 +281,9 @@ span {
   font-size: 12px;
   height: 50px;
   border-radius: 25px;
-  margin-bottom: 0;
-  margin-left: 0;
+  margin-top: 20px;
+  margin-left: -313px;
+  border: 2px solid rgba(255, 255, 255, 0.8);
 }
 
 .more-info-button:hover {
