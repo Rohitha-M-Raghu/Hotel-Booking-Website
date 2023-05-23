@@ -11,6 +11,8 @@
   background-position: center;
   background-size: cover;
   position: absolute;
+  display: flex;
+  flex-direction: column;
 }
 
 .header {
@@ -37,6 +39,7 @@
 .nav-bar-items-container {
   display: inline-block;
   list-style: none;
+  padding-right: 45px;
 }
 
 .nav-bar-item {
@@ -51,6 +54,7 @@
   font-family: 'Roboto Slab', sans-serif;
   font-weight: 400;
   transition: color 0.5s;
+  padding-bottom: 10px;
 }
 
 .nav-link:hover {
@@ -77,6 +81,23 @@ a{
   font-size: 28px;
 }
 
-/* .new-workplace {
+.main-page {
   background-color: lightblue;
-} */
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.website-data {
+  background-color: lightpink;
+  height: 100%;
+  flex: 1;
+}
+
+.login-card {
+  background-color: white;
+  height: 100%;
+  width: 600px;
+}
+
